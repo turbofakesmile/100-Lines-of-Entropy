@@ -96,22 +96,6 @@ This project simulates a heat source with algorithms for temperature, density ge
 I think it is just fun to understand the chaos behind the scenes.
 
 
-## Explanation of Formulas
-
-### Heat Generation Formula
-
-Heat Generated
-=
-Specific Heat Capacity
-×
-Mass
-×
-Temperature
-Heat Generated= 
-Specific Heat Capacity×Mass×Temperature
-​	
- 
-Specific Heat Capacity is the amount of heat required to raise the temperature of a unit mass of a substance by one degree Celsius. For water, it is 4.18 J/(g·°C). Mass is calculated as density (kg/m³) times volume (m³). In this code, we assume a unit volume, so mass is directly derived from density. Temperature is the temperature of the hot source in degrees Celsius.
 
 ## Explanation of Formulas
 
