@@ -101,16 +101,13 @@ I think it is just fun to understand the chaos behind the scenes.
 
 ### Heat Generation Formula
 
-\[
-\text{Heat Generated} = \sqrt{\text{Specific Heat Capacity} \times \text{Mass} \times \text{Temperature}}
-\]
+<img width="618" alt="Screenshot 2024-07-14 at 22 09 21" src="https://github.com/user-attachments/assets/b1069e2e-04c4-4732-b575-efe5595236df">
+
 
 Specific Heat Capacity is the amount of heat required to raise the temperature of a unit mass of a substance by one degree Celsius. For water, it is 4.18 J/(g·°C). Mass is calculated as density (kg/m³) times volume (m³). In this code, we assume a unit volume, so mass is directly derived from density. Temperature is the temperature of the hot source in degrees Celsius.
 
 ### Entropy Extraction Formula
 
-\[
-\text{Entropy} = k \times \text{Volume} \times (\ln(\text{Internal Energy}) + 1.0)
-\]
+<img width="539" alt="Screenshot 2024-07-14 at 22 09 26" src="https://github.com/user-attachments/assets/7b475d88-6679-4a95-a8b2-49272726af6d">
 
 Boltzmann Constant (k) is a physical constant relating the average kinetic energy of particles in a gas with the temperature of the gas, approximately \(1.380649 \times 10^{-23}\) J/K. Volume is assumed to be 1.0 m³ in this simplified model. Internal Energy is calculated as temperature times density.
