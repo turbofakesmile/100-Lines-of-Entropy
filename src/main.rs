@@ -1,6 +1,6 @@
 use nalgebra::ComplexField;
 use rand::Rng;
-use tokio; // Import ComplexField for mathematical calculations
+use tokio; 
 
 #[derive(Debug, Default)]
 struct HotSource<T, D> {
@@ -18,8 +18,8 @@ impl Heat for HotSource<i32, i32> {
         let temperature = self.temperature as f64;
         let density = self.density as f64;
 
-        let specific_heat_capacity = 4.18; // in J/(g·°C) for water
-        let mass = density * 1000.0; // Assuming density in kg/m³ and volume in m³
+        let specific_heat_capacity = 4.18; 
+        let mass = density * 1000.0;
 
         let heat_generated =
             ComplexField::sqrt(specific_heat_capacity * mass * temperature).round() as i32;
