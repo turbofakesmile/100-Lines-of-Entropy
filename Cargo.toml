@@ -1,0 +1,9 @@
+[package]
+name = "heat_to_work"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nalgebra = "0.33.0"
+rand = "0.8.5"
+tokio = { version = "1", features = ["full"] }
